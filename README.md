@@ -22,4 +22,4 @@
 
 Website fictício de uma loja de jogos, hardware e acessórios.
 
-O projeto pode ser visualizado através [desse link](https://will-g-comnisky.github.io/vortex-gaming-center/)
+O projeto pode ser visualizado através [desse link](https://will-g-comnisky.github.io/Vortex-Gaming-Center/)
