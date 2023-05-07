@@ -1,0 +1,78 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(11, 64, 190, 0.781);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(5, 30, 194);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Bruno Ace SC, monospace;
+}
+
+.section-title span {
+    color: rgb(5, 30, 194);
+}
+
+#sobre,
+#catalogo {
+    background-color: #e6f0ff;
+}
+
+.carousel-img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.text-colored {
+    color: rgb(5, 30, 194);
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(5, 30, 194);
+    color: #fff;
+}
+
+.nav-catalogo .nav-link:hover,
+#fale-conosco button:hover {
+    color: black;
+}
+
+.text-xbox {
+    color: green;
+}
+
+.text-nintendo {
+    color: red;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vortex Gaming Center</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Vortex Gaming Center</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-info-square me-1"></i>
+                            Sobre a Vortex
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Nosso local
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./Assets/shop-img6.jpg" alt="Controle playstation e frase lets play the game" class="d-block w-100 carousel-img">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Assets/shop-img5.jpg" alt="Notebooks gamer MSI" class="d-block w-100 carousel-img">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Assets/shop-img7.jpg" alt="Mulher com headset, pesquisa a respeito de mulheres no espaço gamer" class="d-block w-100 carousel-img">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./Assets/shop-img.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title"> Sobre a <span>Vortex Gaming Center</span></h2>
+                        <p>
+                            A Vortex Gaming Center é uma loja especializada em jogos que oferece uma variedade de produtos, incluindo jogos, consoles e acessórios para várias plataformas. Além disso, a loja disponibiliza computadores e consoles para uso dos clientes dentro da loja. Isso permite que os clientes experimentem jogos antes de comprá-los ou simplesmente joguem com seus amigos em um ambiente divertido e acolhedor. A Vortex Gaming Center é o lugar perfeito para os entusiastas de jogos que procuram uma experiência única e imersiva.
+                        </p>
+                        <h3 class="section-title"> Sobre o <span>espaço</span></h3>
+                        <p>
+                            Disponibilizamos 6 máquinas desktops de última geração para nossos clientes usarem, todas equipadas com os melhores acessórios que temos disponíveis na loja, além de 6 TV's 4K para os fãs de consoles, e uma área recreativa e de descanso para os usuários de plataformas mobile.
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <h2 class="section-title text-center">Eventos para todos os <span>gamers</span></h2>
+        </div>
+        <div class="row p-5">
+            <div class="col-md-4">
+                <img src="./Assets/shop-img3.jpg" class="d-block w-100 h-50 rounded mb-2" alt="Pessoas comemorando vitório em jogo">
+                <h3 class="section-title fs-4"><i class="bi bi-controller"></i> Open Gaming Days!</h3>
+                <p>
+                    Venha com seus amigos para jogarem juntos nos dias de Open Gaming! Toda terça e quinta, dss 10:00 às 20:00, aproveitem e testem os melhores jogos, garantimos que nossas super máquinas estão preparadas para vocês! (Necessário ao menos duas pessoas, e o máximo de 2 horas de uso por pessoa cada dia).
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/shop-img4.jpg" class="d-block w-100 h-50 rounded mb-2" alt="Pessoas comemorando vitório em jogo">
+                <h3 class="section-title fs-4"><i class="bi bi-trophy"></i> Organização de Campeonatos</h3>
+                <p>
+                    Sempre estamos organizando campeonatos competitivos de jogos específicos, com premiação para equipe que atingir a primeira classificação. Organize sua equipe e participe! Como também, apoiamos a realização de campeonatos independentes! Quer montar seu próprio campeonato de algum jogo e com regras específicas? Sem problemas! Agende conosco que garantimos a melhor experiência possível para você e as equipes participantes! 
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/shop-img.jpg" class="d-block w-100 h-50 rounded mb-2" alt="Pessoas comemorando vitório em jogo">
+                <h3 class="section-title fs-4"><i class="bi bi-tags"></i> Flash Sale Day!</h3>
+                <p>
+                    Durante 1 dia no mês, organizamos nosso super evento com promoções incríveis para todos! Isso inclui jogos, hardware e acessórios para seu setup! E o melhor, você pode testar algum jogo durante 30 minutos antes de comprá-lo em nossas super máquinas sem nenhum custo adicional! Nós queremos que você faça a melhor escolha!
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="catalogo" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Nosso <span>catálogo</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-catalogo">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#jogos" class="nav-link fw-bold text-start active"> <span>Jogos</span></button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#hardware" class="nav-link fw-bold text-start"> <span>Hardware</span></button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="nav-link fw-bold text-start"> <span>Acessórios</span> </button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="jogos">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img8.jpg" alt="Sessão da loja de Playstation">
+                                    <h5 class="fw-bold text-colored mt-2"> Playstation</h5>
+                                    <p> Verifique nossa sessão de Playstation! Temos de tudo para os fãs da plataforma!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img10.jpg" alt="Sessão da loja de Xbox">
+                                    <h5 class="fw-bold text-xbox mt-2"> Xbox</h5>
+                                    <p> Verifique nossa sessão de Xbox! Temos de tudo para os fãs da plataforma!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img11.jpg" alt="Sessão da loja de Nintendo Switch">
+                                    <h5 class="fw-bold text-nintendo mt-2"> Nintendo Switch</h5>
+                                    <p> Verifique nossa sessão de Nintendo Switch! Temos de tudo para os fãs da plataforma!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="hardware">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img9.jpg" alt="Sessão da loja de hardware MSI">
+                                    <h5 class="fw-bold text-colored mt-2">Sessão MSI</h5>
+                                    <p> Verifique nossa sessão de hardware da MSI! Temos as melhores peças para montar sua máquina perfeita!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img12.jpg" alt="Notebooks">
+                                    <h5 class="fw-bold text-xbox mt-2">Sessão Notebooks</h5>
+                                    <p> Verifique nossos Notebooks gamers! Compactos, finos e super potentes, ache o modelo ideal para você!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img2.jpg" alt="Sessão da loja de monitores e TV's">
+                                    <h5 class="fw-bold text-xbox mt-2">Sessão de Monitores e TV's</h5>
+                                    <p> Não temos como jogar sem uma boa TV ou monitor! Garanta o seu em nossa loja!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="acessorios">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img13.jpg" alt="Headsets Gamer">
+                                    <h5 class="fw-bold text-colored mt-2">Headsets Gamer</h5>
+                                    <p> Temos uma diversidade de headsets para você! Desde o mais básico até os de qualidade premium.</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img-cadeiras.jpg" alt="Cadeiras gamer">
+                                    <h5 class="fw-bold text-xbox mt-2">Cadeiras Gamer</h5>
+                                    <p> Toda gameplay precisa de conforto, confira nossas opções das melhores cadeiras gamers do mercado!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 h-50" src="./Assets/shop-img-teclado.jpg" alt="Teclado e mouse gamer">
+                                    <h5 class="fw-bold text-xbox mt-2">Mouses e teclados</h5>
+                                    <p> Confira nossos mouses e teclados gamers! Temos para todos os gostos e estilos! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center pb-3">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="email@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="(XX) XXXXX-XXXX">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea id="mensagem" class="form-control" name="mensagem" placeholder="Digite aqui sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored"><i class="bi bi-wechat"></i> Redes Sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-3">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-3 ms-3 me-3">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-3">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored"><i class="bi bi-cursor-fill"></i> Endereço</h3>
+                        <p> Rua Vortex nº 214, Bairro Gamer - Itajaí - SC </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>    
+    <script src="./main.js"></script>
+</body>
+</html>
